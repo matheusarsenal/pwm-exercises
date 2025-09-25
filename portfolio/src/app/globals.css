@@ -1,26 +1,110 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.divContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(37, 139, 207, 0.877);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.portifolioContainer {
+  background-color: #ffffff;
+  width: 210mm;
+  height: 297mm;
+  padding: 20mm;
+  margin-top: 30mm;
+  margin-bottom: 30mm;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  gap: 20px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.portifolioTop {
+    display: flex;
+    gap: 20px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.divImage {
+    flex-shrink: 0;
+}
+
+.portifolioImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.divDesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.portifolioTitleID {
+    color: rgba(36, 117, 172, 0.993);
+}
+
+.portifolioMid {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptionText {
+    margin-top: 30px;
+    align-content: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.certificatesTitle {
+    margin-top: 30px;
+}
+
+.certificatesList {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.skillsTitle {
+    margin-top: 30px;
+}
+
+.skillsList {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.linhaDivisora {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jogoDaForca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.botaoForca{
+    display: flex;
+    background-color: rgb(101, 170, 235);
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.botaoForca:active {
+    background-color: rgb(42, 110, 173);
+}
+
+.buttonText {
+    justify-content: center;
+    align-items: center;
 }
