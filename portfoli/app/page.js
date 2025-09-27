@@ -69,7 +69,7 @@ export default function Home() {
         <div className="portifolioBottom">
           <div className="jogoDaForca">
             <Link
-              href="/Forca"
+              href="/forca"
               className="botaoForca"
             >
               <p className="buttonText"> <b>Forca!</b> </p>
