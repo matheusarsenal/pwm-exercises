@@ -1,0 +1,78 @@
+.divContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(37, 139, 207, 0.877);
+}
+
+.divForca {
+  display: flex;
+  background-color: #ffffff;
+  width: 210mm;
+  height: 100mm;
+  padding: 20mm;
+  margin-top: 30mm;
+  margin-bottom: 30mm;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  gap: 20px;
+}
+
+.interface1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.palavraOculta {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 25px;
+  margin-bottom: 50px;;
+}
+
+.entrada {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  gap: 5px;
+  max-width: 200px;
+  margin: 0;
+
+}
+
+.entrada button {
+  background-color: rgb(101, 170, 235);
+  color: #ffffff;
+  padding: 5px 5px;
+  font-size: 1.2rem;
+}
+
+.interface2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.telaFinal {
+  margin: 25px;
+}
+
+.mensagemFinal button {
+  display: flex;
+  background-color: rgb(101, 170, 235);
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.mensagemFinal button:hover {
+  background-color: rgb(42, 110, 173);
+}

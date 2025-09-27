@@ -53,11 +53,13 @@ export default function Home() {
           <div className="skills">
             <ul className="skillsList">
               <li>Python</li>
+              <li>c++</li>
+              <li>java</li>
               <li>Bibliotecas Numpy e Pandas</li>
               <li>Power BI </li>
               <li>Excel </li>
-              <li>IBM Watson Studio.</li>
-              <li>N8n.</li>
+              <li>pytorch.</li>
+              <li>Mysql.</li>
             </ul>
           </div>
 
