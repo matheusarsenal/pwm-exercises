@@ -11,7 +11,7 @@ export default function Forca() {
 
   useEffect(() => {
     async function carregarPalavra(){
-      const resposta = await fetch("/list.txt");
+      const resposta = await fetch("/lista.txt");
       const texto = await resposta.text();
 
       const linhas = texto

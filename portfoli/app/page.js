@@ -40,8 +40,9 @@ export default function Home() {
 
           <div className="certificates">
             <ul className="certificatesList">
-              <li>Fundamentos de IA - IBM SkillsBuild</li>
+              <li>introdução a IA - even3</li>
               <li>Introdução à Ciência de Dados - Cisco</li>
+              <li>power bi - ibm</li>
               <li>.</li>
             </ul>
           </div>
