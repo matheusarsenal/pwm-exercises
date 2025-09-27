@@ -1,6 +1,6 @@
 "use client";
 
-import "./Forca.css";
+import "./forca.css";
 import { useEffect, useState } from "react";
 
 export default function Forca() {

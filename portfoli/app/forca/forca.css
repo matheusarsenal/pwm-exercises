@@ -1,9 +1,10 @@
 .divContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: rgba(37, 139, 207, 0.877);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(37, 139, 207, 0.877);
+  font-family: Arial, sans-serif;
 }
 
 .divForca {
@@ -12,51 +13,91 @@
   width: 210mm;
   height: 100mm;
   padding: 20mm;
-  margin-top: 30mm;
-  margin-bottom: 30mm;
+  margin: 30mm 0;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .interface1 {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .palavraOculta {
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
-  margin: 25px;
-  margin-bottom: 50px;;
+  margin: 25px 0 50px 0;
+  font-size: 2rem;
+  letter-spacing: 8px;
 }
 
 .entrada {
   display: flex;
   flex-wrap: wrap;
-  justify-items: center;
+  justify-content: center;
   gap: 5px;
   max-width: 200px;
-  margin: 0;
-
+  margin: 0 auto;
 }
 
 .entrada button {
   background-color: rgb(101, 170, 235);
   color: #ffffff;
-  padding: 5px 5px;
+  padding: 8px 12px;
   font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.entrada button:hover:not(:disabled) {
+  background-color: rgb(42, 110, 173);
+}
+
+.entrada button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .interface2 {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.vidas {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.vidas p {
+  margin: 5px 0;
+  font-size: 1rem;
 }
 
 .telaFinal {
-  margin: 25px;
+  margin: 25px 0 0 0;
+}
+
+.mensagemFinal {
+  text-align: center;
+}
+
+.mensagemFinal.ganhou h2 {
+  color: #2e7d32;
+  font-size: 1.8rem;
+}
+
+.mensagemFinal.perdeu h2 {
+  color: #c62828;
+  font-size: 1.8rem;
 }
 
 .mensagemFinal button {
@@ -71,8 +112,36 @@
   border: 0;
   font-size: 25px;
   margin-top: 25px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .mensagemFinal button:hover {
   background-color: rgb(42, 110, 173);
+}
+
+@media (max-width: 900px) {
+  .divForca {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .entrada {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .palavraOculta {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+  }
+
+  .mensagemFinal button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
 }
