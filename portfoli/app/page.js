@@ -7,7 +7,7 @@ export default function Home() {
     <div className="divContainer">
       <div className="portifolioContainer">
 
-        <div className="portifolioTop">
+        <div className="portifolio">
 
           <div className="divImage">
             <img src="/assents/personal_photo.jpg" alt="personal photo" width={150} height={200} />
@@ -18,7 +18,7 @@ export default function Home() {
             <p>Estudante de Ciência da Computação</p>
             <br />
             <p> <b>Contato:</b> (81) 9.9999-9999</p>
-            <p><b>E-mail:</b> Matheus@naoexiste.com</p>
+            <p><b>E-mail:</b> Matheusbarbosaaguiar@gmail.com</p>
           </div>
 
         </div>

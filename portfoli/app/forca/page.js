@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import "./Forca.css";
 import { useEffect, useState } from "react";
 
@@ -12,7 +11,7 @@ export default function Forca() {
 
   useEffect(() => {
     async function carregarPalavra(){
-      const resposta = await fetch("/palavras.txt");
+      const resposta = await fetch("/list.txt");
       const texto = await resposta.text();
 
       const linhas = texto
@@ -37,7 +36,7 @@ export default function Forca() {
     .map((letra) => (acertos.includes(letra) ? letra : "_"))
     .join(" ");
 
-  const alfabeto = "abcdefghijklmnopqrstuvwxyz".split("");
+  const alfabeto = "abcdefghijklmnopqrstuvwxyzç".split("");
 
   function chutar(letra){
     if (fim) return;
