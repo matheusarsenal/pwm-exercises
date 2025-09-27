@@ -14,11 +14,11 @@ export default function Home() {
           </div>
 
           <div className="divDesc">
-            <h2 className="portifolioTitleID">Arthur Felipe Leite de Vasconcelos</h2>
+            <h2 className="portifolioTitleID">Matheus Fabiano barbosa aguiar</h2>
             <p>Estudante de Ciência da Computação</p>
             <br />
             <p> <b>Contato:</b> (81) 9.9999-9999</p>
-            <p><b>E-mail:</b> arthur@naoexiste.com</p>
+            <p><b>E-mail:</b> Matheus@naoexiste.com</p>
           </div>
 
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
 
           <div className="description">
-            <p className="descriptionText">Olá, sou Arthur Felipe. Eu tenho interesse em Inteligência Artificial e Ciência de Dados e estou à procura de um estágio.</p>
+            <p className="descriptionText">Olá, matheus. Eu tenho interesse em Inteligência Artificial e Ciência de Dados e estou à procura de um estágio.</p>
           </div>
 
           <div className="certificatesTitle">
@@ -42,7 +42,7 @@ export default function Home() {
             <ul className="certificatesList">
               <li>Fundamentos de IA - IBM SkillsBuild</li>
               <li>Introdução à Ciência de Dados - Cisco</li>
-              <li>Defesa de Redes - Cisco</li>
+              <li>.</li>
             </ul>
           </div>
 
@@ -52,12 +52,12 @@ export default function Home() {
 
           <div className="skills">
             <ul className="skillsList">
-              <li>Python - Intermediário</li>
+              <li>Python</li>
               <li>Bibliotecas Numpy e Pandas</li>
-              <li>Power BI - Básico</li>
-              <li>Excel - Intermediário</li>
-              <li>IBM Watson Studio - Básico</li>
-              <li>N8n - Básico</li>
+              <li>Power BI </li>
+              <li>Excel </li>
+              <li>IBM Watson Studio.</li>
+              <li>N8n.</li>
             </ul>
           </div>
 
